@@ -198,7 +198,8 @@ nav li{
     }
     .header-text{
         padding: 0px;
-        text-align: start;
+        text-align: center;
+        margin-top: 20px;
     }
     .banner{
         padding: 5px;
@@ -211,6 +212,7 @@ nav li{
         flex-direction: column;
         padding: 0px;
         gap: 0px;
+        margin-top: 20px;
     }
     .image-container{
         grid-template-columns: repeat(1, 1fr);
@@ -221,7 +223,16 @@ nav li{
         width: 100%;
     }
     .text-container{
-        width: 100%;
+        width: 100%; 
+        margin: 10px;
+        
+    }
+    .text-container h2, p{
+        padding-left: 10px;
+    }
+    .BTN{
+        margin: 10px;
+
     }
     .text-parent-container{
         flex-direction: column;
@@ -231,6 +242,7 @@ nav li{
     .text{
         width: 100%;
         padding: 5px;
+        margin-top: 50px;
     }
     .image{
         width: 100%;
@@ -240,21 +252,23 @@ nav li{
         padding: 2px;
 
     }
+    .icon-text{
+        margin-top: 50px;
+        padding-left: 10px;
+
+    }
     .card-container{
         flex-direction: column;
         padding: 2px;
         
     }
     .icon-card{
-        margin: 20px 0px;
+        margin: 0px 0px 20px 0px;
         padding: 25px 0px ;
         
         
     }
-    .sponsors-container{
-        padding: 50px 10px;
-        margin: 10px;
-    }
+    
     .icon-card:nth-child(1):hover{
         background-color: aquamarine;
         scale: 1;
@@ -271,6 +285,10 @@ nav li{
         background-color:#e99826 ;
         scale: 1;
      }
+     .sponsors-container{
+        padding: 50px 10px;
+        margin: 10px;
+    }
      .second-text{
         text-align: center;
      }
@@ -284,13 +302,11 @@ nav li{
     .logo img{
         width: 250px;
         height: 130px;
-        /* margin: 20px 0px 0px 30px; */
-        
-        
+    
     
     }
     footer p{
-        margin: 0px;
+        margin: 0px 20px 20px 20px;
         padding: 5px 10px;
     }
 
