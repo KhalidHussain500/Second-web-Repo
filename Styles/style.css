@@ -172,9 +172,7 @@ nav li{
     justify-content: space-between;
     
  }
- .logo img{
-    color:  gray
- }
+ 
  footer p{
     margin: 0px 200px 200px 200px;
     padding: 30px 200px;
@@ -238,22 +236,62 @@ nav li{
         width: 100%;
     }
     .icons-parent-container{
-        padding: 5px;
+        margin-top: 50px;
+        padding: 2px;
 
     }
     .card-container{
         flex-direction: column;
+        padding: 2px;
+        
     }
     .icon-card{
-        margin: 5px;
-        padding:20px 0px ;
+        margin: 20px 0px;
+        padding: 25px 0px ;
+        
+        
     }
     .sponsors-container{
         padding: 50px 10px;
         margin: 10px;
     }
+    .icon-card:nth-child(1):hover{
+        background-color: aquamarine;
+        scale: 1;
+     }
+     .icon-card:nth-child(2):hover{
+        background-color: #0cecf4;
+        scale: 1;
+     }
+     .icon-card:nth-child(3):hover{
+        background-color: #1bf086;
+        scale: 1;
+     }
+     .icon-card:nth-child(4):hover{
+        background-color:#e99826 ;
+        scale: 1;
+     }
+     .second-text{
+        text-align: center;
+     }
     .logo{
         flex-direction: column;
+        align-content: center;
+        align-items: center;
+        gap: 50px;
+
+    }
+    .logo img{
+        width: 250px;
+        height: 130px;
+        /* margin: 20px 0px 0px 30px; */
+        
+        
+    
+    }
+    footer p{
+        margin: 0px;
+        padding: 5px 10px;
     }
 
 } 
